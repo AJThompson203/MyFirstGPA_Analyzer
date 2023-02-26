@@ -62,7 +62,8 @@ public:
   Student();
   void addGradeMethod(double grade);
   void gradeDisplayMethod();
-  void Grade2Lttr(); // Rename from GradeLetterMethod to Grade2Lttr before handing in
+  void
+  Grade2Lttr(); // Rename from GradeLetterMethod to Grade2Lttr before handing in
 };
 
 // constructor initializing stuGrades
@@ -264,15 +265,15 @@ void UnitTest() {
 ~~~~~~~~~~~~~~~~~~~~||  Spec Test  ||~~~~~~~~~~~~~~~~~~~~~~~
 
 c1:greeting (done) includes welcome ASCI message, name, due date via setDate
-method [line 210] 
+method [line 210]
 c2:print scores (done) apart of Grade Display method [line
-105] 
+105]
 c3: letter stuGrades (done) apart of the Grade Display method. [line 105]
 c4: compute GPA (done) called method to display gpa- unsure if there was a
 setprescion requirement....  [line 130]
 
 b1: create dynamic array (done)- I used a method in the sudent class addGrade to
-both create and add to grade when its called in main() [line 79] 
+both create and add to grade when its called in main() [line 79]
 b2: [line 80]
 b3: menu input validation (done) something I didnt do last time, used textbook
 to get best way to do it [line 161]
@@ -281,9 +282,9 @@ not highlight score so I did letter grade [line 6]
 
 A1: Date class (done) heavily relied on class work
 A2: External date initialization (done) d1.setDate has 3 integers that are used
-inside main() 
+inside main()
 A3: compmonent test method date (done) I have 2 tests. They failed
 for about 4 hours and I changed the format of my date and now they work. I do
-not know why at all. [ line 264] 
+not know why at all. [ line 264]
 A4: Unit test (done) tests the input for the due date
 */
