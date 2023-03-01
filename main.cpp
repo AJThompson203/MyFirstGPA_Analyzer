@@ -1,6 +1,7 @@
 // GPA.cpp
 // Anthony Thompson CISP 400
 // 12/19/2023
+// gpa analyzer
 
 #include <ctime>
 #include <iomanip>
